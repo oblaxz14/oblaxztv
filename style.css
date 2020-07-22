@@ -1,0 +1,155 @@
+body,
+ul,
+li,
+h1,
+h2,
+a {
+  margin: 0px;
+  padding: 0px;
+  font-family: arial;
+}
+.navigation {
+  padding: 30px;
+  background: gray;
+  display: flex;
+  align-items: center;
+}
+
+.navigation li a {
+  text-decoration: none;
+}
+body,
+ul,
+li,
+h1,
+h2,
+a {
+  margin: 0px;
+  padding: 0px;
+  font-family: arial;
+}
+body {
+  background-color: #b37700;
+}
+li,
+a,
+button {
+  font-weight: 500;
+  font-size: 16px;
+  color: #edfef1;
+  text-decoration: none;
+}
+
+.oblaxz a {
+  color: orange;
+  margin-right: auto;
+}
+button {
+  margin-left: 50px;
+  background: orange;
+  padding: 9px 25px;
+  border: none;
+  cursor: pointer;
+}
+button:hover {
+  background: orangered;
+  transition: all 0.5s ease 0s;
+}
+header {
+  background-color: #24252a;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 30px 10%;
+}
+header .oblaxz a h1 {
+  float: left;
+}
+.nav_links {
+  list-style: none;
+  background-color: #24252;
+}
+.nav_links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+.nav_links li a {
+  transition: all 0.3s ease 0s;
+}
+.nav_links li a:hover {
+  color: orange;
+}
+
+.banner {
+  text-align: end;
+  background: black;
+}
+.welcome h1 {
+  background-color: black;
+  color: blanchedalmond;
+  z-index: 1;
+  padding: 30px;
+  position: absolute;
+  left: 0px;
+  top: 30%;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: left;
+  font-size: 89px;
+  letter-spacing: 3px;
+}
+.welcome h1 span {
+  font-size: 40px;
+  font-weight: normal;
+  letter-spacing: 3px;
+}
+.main-items {
+  margin: 0;
+  padding: 0;
+  background-color: #b37700;
+  color: white;
+}
+.main-items .tv ul li img {
+  height: 350px;
+  width: 360px;
+}
+
+.tv ul {
+  display: flex;
+  flex-direction: row;
+}
+.tv ul li {
+  list-style: none;
+}
+.main-items .movies ul li img {
+  height: 350px;
+  width: 360px;
+}
+.movies ul {
+  display: flex;
+  flex-direction: row;
+}
+.movies ul li {
+  list-style: none;
+}
+.main-items .anime ul li img {
+  height: 350px;
+  width: 360px;
+}
+.anime ul {
+  display: flex;
+  flex-direction: row;
+}
+.anime ul li {
+  list-style: none;
+}
+footer {
+  background: black;
+  color: white;
+  font-weight: bolder;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+/* responsive style */
+@media;
